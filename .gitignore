@@ -1,3 +1,16 @@
+## Project specific
+mle.iml
+
+## Directory-based project format:
+.idea/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# IntelliJ
+/out/
+
+## go template for .gitignore
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
@@ -22,3 +35,24 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+### Vagrant template
+.vagrant/
+
+### Eclipse IDE
+.settings/
+.project
